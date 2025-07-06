@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\prosolutiondata.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\prosolutiondata.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\prosolutiondata.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\prosolutiondata.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\controllers\\devolvedareapostcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\controllers\\devolvedareapostcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\models\\devolvedareapostcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\models\\devolvedareapostcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\services\\devolvedareapostcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\services\\devolvedareapostcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\shared\\stringfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\shared\\stringfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\appsettings - default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\appsettings - default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|c:\\users\\robin.wilson\\source\\repos\\prosolutiondata\\prosolutiondata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD99A73-D285-49C4-8667-9B22481E066C}|ProSolutionData\\ProSolutionData.csproj|solutionrelative:prosolutiondata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProSolutionData.http",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\ProSolutionData.http",
+              "RelativeDocumentMoniker": "ProSolutionData\\ProSolutionData.http",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\ProSolutionData.http",
+              "RelativeToolTip": "ProSolutionData\\ProSolutionData.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-01T21:29:22.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "ProSolutionData\\Controllers\\TeamController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:22:39.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings.json",
+              "RelativeDocumentMoniker": "ProSolutionData\\appsettings.json",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings.json",
+              "RelativeToolTip": "ProSolutionData\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T18:43:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Services\\TeamService.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\TeamService.cs",
+              "RelativeToolTip": "ProSolutionData\\Services\\TeamService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wDEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:12:32.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DevolvedAreaPostCodeController.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\DevolvedAreaPostCodeController.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Controllers\\DevolvedAreaPostCodeController.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\DevolvedAreaPostCodeController.cs",
+              "RelativeToolTip": "ProSolutionData\\Controllers\\DevolvedAreaPostCodeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:06:35.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DevolvedAreaPostCodeModel.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\DevolvedAreaPostCodeModel.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Models\\DevolvedAreaPostCodeModel.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\DevolvedAreaPostCodeModel.cs",
+              "RelativeToolTip": "ProSolutionData\\Models\\DevolvedAreaPostCodeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:57:22.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeamModel.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\TeamModel.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Models\\TeamModel.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\TeamModel.cs",
+              "RelativeToolTip": "ProSolutionData\\Models\\TeamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:57:24.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Models\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Models\\CourseModel.cs",
+              "RelativeToolTip": "ProSolutionData\\Models\\CourseModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:57:17.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Program.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Program.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Program.cs",
+              "RelativeToolTip": "ProSolutionData\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:50:35.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProSolutionData",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\ProSolutionData.csproj",
+              "RelativeDocumentMoniker": "ProSolutionData\\ProSolutionData.csproj",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\ProSolutionData.csproj",
+              "RelativeToolTip": "ProSolutionData\\ProSolutionData.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-01T18:37:56.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ProSolutionData\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:49:58.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\CourseService.cs",
+              "RelativeToolTip": "ProSolutionData\\Services\\CourseService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwD8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:11:48.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DevolvedAreaPostCodeService.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\DevolvedAreaPostCodeService.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Services\\DevolvedAreaPostCodeService.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Services\\DevolvedAreaPostCodeService.cs",
+              "RelativeToolTip": "ProSolutionData\\Services\\DevolvedAreaPostCodeService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:00:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StringFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Shared\\StringFunctions.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Shared\\StringFunctions.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Shared\\StringFunctions.cs",
+              "RelativeToolTip": "ProSolutionData\\Shared\\StringFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:23:01.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings - Default.json",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings - Default.json",
+              "RelativeDocumentMoniker": "ProSolutionData\\appsettings - Default.json",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings - Default.json",
+              "RelativeToolTip": "ProSolutionData\\appsettings - Default.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T19:05:06.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProSolutionData\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\appsettings.Development.json",
+              "RelativeToolTip": "ProSolutionData\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T18:43:37.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProSolutionData\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\robin.wilson\\source\\repos\\ProSolutionData\\ProSolutionData\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProSolutionData\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T18:54:41.536Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

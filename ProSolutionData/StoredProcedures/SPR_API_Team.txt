@@ -1,0 +1,54 @@
+CREATE PROCEDURE [dbo].[SPR_API_Team]
+	@AcademicYear NVARCHAR(5),
+	@Faculty NVARCHAR(50),
+	@Team NVARCHAR(50),
+	@WebsiteAvailability INT,
+	@IsParent NVARCHAR(50)
+AS
+BEGIN
+	SET XACT_ABORT, NOCOUNT ON;
+
+	--DECLARE @AcademicYear NVARCHAR(5) = '24/25'
+	--DECLARE @Faculty NVARCHAR(50) = 'ALL'
+	--DECLARE @Team NVARCHAR(50) = 'ALL'
+	--DECLARE @WebsiteAvailability INT = 2 --Applications
+	--DECLARE @IsParent NVARCHAR(50) = 'ALL'
+
+	SELECT DISTINCT
+		TeamCode = RTRIM ( TEAM.Code ),
+		TeamName = TEAM.Name
+	FROM ProSolution.dbo.Offering CRS
+	INNER JOIN ProSolution.dbo.CollegeLevel TEAM
+		ON TEAM.SID = CRS.SID
+	INNER JOIN ProSolution.dbo.CollegeLevel FAC
+		ON FAC.SID = TEAM.ParentSID
+	LEFT JOIN (
+		SELECT DISTINCT
+			ParentOfferingID = LNK.MainOfferingID
+		FROM ProSolution.dbo.LinkedOffering LNK
+	) HASCLD
+		ON HASCLD.ParentOfferingID = CRS.OfferingID
+	WHERE
+		CRS.AcademicYearID = @AcademicYear
+		AND ( FAC.Code = @Faculty OR 'ALL' = @Faculty )
+		AND ( TEAM.Code = @Team OR 'ALL' = @Team )
+		AND ( CRS.WebSiteAvailabilityID = @WebsiteAvailability OR -1 = @WebsiteAvailability )
+		AND 
+			CASE
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'ALL' THEN 1
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'Y' THEN
+					CASE
+						WHEN HASCLD.ParentOfferingID IS NOT NULL THEN 1
+						ELSE 0
+					END
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'N' THEN
+					CASE
+						WHEN HASCLD.ParentOfferingID IS NOT NULL THEN 0
+						ELSE 1
+					END
+				ELSE 0
+			END = 1
+	ORDER BY
+		TEAM.Name,
+		RTRIM ( TEAM.Code )
+END

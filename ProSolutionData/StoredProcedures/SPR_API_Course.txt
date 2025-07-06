@@ -1,0 +1,90 @@
+CREATE PROCEDURE [dbo].[SPR_API_Course]
+	@AcademicYear NVARCHAR(5),
+	@Faculty NVARCHAR(50),
+	@Team NVARCHAR(50),
+	@WebsiteAvailability INT,
+	@IsParent NVARCHAR(50)
+AS
+BEGIN
+	SET XACT_ABORT, NOCOUNT ON;
+
+	--DECLARE @AcademicYear NVARCHAR(5) = '24/25'
+	--DECLARE @Faculty NVARCHAR(50) = 'ALL'
+	--DECLARE @Team NVARCHAR(50) = 'ALL'
+	--DECLARE @WebsiteAvailability INT = 2 --Applications
+	--DECLARE @IsParent NVARCHAR(50) = 'ALL'
+
+	SELECT
+		FacultyCode = RTRIM ( FAC.Code ),
+		FacultyName = FAC.Name,
+		TeamCode = RTRIM ( TEAM.Code ),
+		TeamName = TEAM.Name,
+		SiteCode = STE.Code,
+		SiteName = STE.Description,
+		CourseID = CRS.OfferingID,
+		CourseCode = CRS.Code,
+		CourseTitle = CRS.Name,
+		CourseInformationCode = INF.Code,
+		CourseInformationTitle = INF.Description,
+		OfferingTypeCode = CRS.OfferingTypeID,
+		OfferingTypeName = CRST.Description,
+		EnrolmentTypeCode = CRS.EnrolmentTypeID,
+		EnrolmentTypeName = ENRT.Description,
+		SuitableFor = 
+			CASE
+				WHEN CRS.OfferingTypeID = 6 THEN '16-18'
+				WHEN CRS.OfferingTypeID = 3 THEN 'Apprenticeship'
+				WHEN CRS.OfferingTypeID = 4 THEN 'Apprenticeship'
+				WHEN CRS.OfferingTypeID = 2 THEN 'Higher Education'
+				ELSE '19+'
+			END,
+		AimCode = CRS.QualID,
+		AimTitle = AIM.LEARNING_AIM_TITLE,
+		StartDate = CRS.StartDate,
+		EndDate = CRS.EndDate
+	FROM ProSolution.dbo.Offering CRS
+	INNER JOIN ProSolution.dbo.CollegeLevel TEAM
+		ON TEAM.SID = CRS.SID
+	INNER JOIN ProSolution.dbo.CollegeLevel FAC
+		ON FAC.SID = TEAM.ParentSID
+	INNER JOIN ProSolution.dbo.OfferingType CRST
+		ON CRST.OfferingTypeID = CRS.OfferingTypeID
+	INNER JOIN ProSolution.dbo.CourseInformation INF
+		ON INF.CourseInformationID = CRS.CourseInformationID
+	LEFT JOIN ProSolution.dbo.Site STE
+		ON STE.SiteID = CRS.SiteID
+	LEFT JOIN ProSolution.dbo.EnrolmentType ENRT
+		ON ENRT.EnrolmentTypeID = CRS.EnrolmentTypeID
+	LEFT JOIN ProSolution.dbo.Learning_Aim AIM
+		ON AIM.LEARNING_AIM_REF = CRS.QualID
+	LEFT JOIN (
+		SELECT DISTINCT
+			ParentOfferingID = LNK.MainOfferingID
+		FROM ProSolution.dbo.LinkedOffering LNK
+	) HASCLD
+		ON HASCLD.ParentOfferingID = CRS.OfferingID
+	WHERE
+		CRS.AcademicYearID = @AcademicYear
+		AND ( FAC.Code = @Faculty OR 'ALL' = @Faculty )
+		AND ( TEAM.Code = @Team OR 'ALL' = @Team )
+		AND ( CRS.WebSiteAvailabilityID = @WebsiteAvailability OR -1 = @WebsiteAvailability )
+		AND INF.Obsolete = 0
+		AND 
+			CASE
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'ALL' THEN 1
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'Y' THEN
+					CASE
+						WHEN HASCLD.ParentOfferingID IS NOT NULL THEN 1
+						ELSE 0
+					END
+				WHEN COALESCE ( @IsParent, 'ALL' ) = 'N' THEN
+					CASE
+						WHEN HASCLD.ParentOfferingID IS NOT NULL THEN 0
+						ELSE 1
+					END
+				ELSE 0
+			END = 1
+	ORDER BY
+		INF.Description,
+		CRS.Code
+END

@@ -1,0 +1,39 @@
+CREATE PROCEDURE [dbo].[SPR_API_DevolvedAreaPostCode]
+	@PostCode NVARCHAR(8)
+AS
+BEGIN
+	SET XACT_ABORT, NOCOUNT ON;
+
+	--DECLARE @PostCode NVARCHAR(8) = 'NE61 3RB'
+
+	SELECT
+		DevolvedAreaPostCodeID = DPC.DevAreaPostcodeID,
+		PostCode = DPC.Postcode,
+		FundingSourceCode = DPC.FundingSourceID,
+		FundingSourceName = SOF.Description,
+		EffectiveStartDate = DPC.EffectiveStartDate,
+		EffectiveEndDate = DPC.EffectiveEndDate,
+		IsSOFOffered = SOF.IsSOFOffered
+	FROM ProSolution.dbo.DevolvedAreaPostcode DPC
+	INNER JOIN ProSolution.dbo.FundingSource SOF
+		ON SOF.FundingSourceID = DPC.FundingSourceID
+	WHERE
+		( REPLACE ( DPC.Postcode, ' ',  '' ) = REPLACE ( @PostCode, ' ',  '' ) OR 'ALL' = REPLACE ( @PostCode, ' ',  '' ) )
+
+	UNION ALL
+
+	SELECT
+		DevolvedAreaPostCodeID = 0,
+		PostCode = DPC.Postcode,
+		FundingSourceCode = SOF.FundingSourceID,
+		FundingSourceName = SOF.Description,
+		EffectiveStartDate = '20' + LEFT ( SOF.MinAcademicYearID, 2 ) + '-08-01',
+		EffectiveEndDate = SOF.MaxAcademicYearID,
+		IsSOFOffered = SOF.IsSOFOffered
+	FROM ProSolution.dbo.FundingSource SOF
+	LEFT JOIN ProSolution.dbo.DevolvedAreaPostcode DPC
+		ON REPLACE ( DPC.Postcode, ' ',  '' ) = REPLACE ( @PostCode, ' ',  '' )
+	WHERE
+		SOF.FundingSourceID = '105'
+		AND DPC.DevAreaPostcodeID IS NULL
+END
