@@ -195,3 +195,4 @@ C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Release\n
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Release\net9.0\ProSolutionData.pdb
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Release\net9.0\ProSolutionData.genruntimeconfig.cache
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Release\net9.0\ref\ProSolutionData.dll
+C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Release\net9.0\ProSolutionData.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProSolutionData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e39a3601b1b9019b0efa97294ab527841f97c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6df384ccadbd232c845aedaae7beaa8a0955885c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProSolutionData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProSolutionData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0")]
