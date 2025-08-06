@@ -195,3 +195,4 @@ C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Debug\net
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Debug\net9.0\ProSolutionData.genruntimeconfig.cache
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Debug\net9.0\ref\ProSolutionData.dll
 C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\robin.wilson\source\repos\ProSolutionData\ProSolutionData\obj\Debug\net9.0\ProSolutionData.sourcelink.json
